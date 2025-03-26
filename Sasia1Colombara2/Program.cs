@@ -4,8 +4,7 @@ namespace Sasia1Colombara2 {
 
     public class program
     {
-
-        /*
+    /*
          * Alumnos:
          * Sasia Juan Ignacio, Dni 37713879
          * Colombara Francisco, Dni
@@ -38,9 +37,9 @@ namespace Sasia1Colombara2 {
                 + ", " + nuevoAlumno.nombre
                 + " tiene el usuiario: " + nuevoAlumno.usuario
                 + " y el celular: " + nuevoAlumno.celular);
+
+     
             }
-
-
-        }
-
-    }
+           }
+           }
+            

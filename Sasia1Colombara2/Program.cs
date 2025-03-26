@@ -11,13 +11,14 @@ namespace Sasia1Colombara2 {
          * Re Florencia, Dni
          * Cintia, 
          */
-        static void Main(string[] args)
+       static void Main(string[] args)
         {
+            List<Alumno> listaAlumnos = new List<Alumno>();
 
             Alumno nuevoAlumno = new Alumno();
 
                 Console.WriteLine("Ingrese los datos del Usuario: ");
-                
+
                 Console.Write("Usuario: ");
                 nuevoAlumno.usuario = Convert.ToInt32(Console.ReadLine());
 
@@ -32,14 +33,16 @@ namespace Sasia1Colombara2 {
 
                 Console.WriteLine("--------------------------------");
 
+            foreach (var alumno in listaAlumnos)
 
             Console.WriteLine("La persona: " + nuevoAlumno.apellido
                 + ", " + nuevoAlumno.nombre
                 + " tiene el usuiario: " + nuevoAlumno.usuario
                 + " y el celular: " + nuevoAlumno.celular);
 
-     
-            }
-           }
-           }
+
+        }
+
+    }
+}
             

@@ -11,4 +11,12 @@
     <PackageReference Include="EPPlus.Core" Version="1.5.4" />
   </ItemGroup>
 
+  <ItemGroup>
+    <EditorConfigFiles Remove="C:\Users\SFC\source\repos\Sasia1Colombara2\Sasia1Colombara2\.editorconfig" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="C:\Users\SFC\source\repos\Sasia1Colombara2\Sasia1Colombara2\.editorconfig" />
+  </ItemGroup>
+
 </Project>

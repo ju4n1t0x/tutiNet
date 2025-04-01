@@ -51,10 +51,15 @@ namespace Sasia1Colombara2 {
             variables.MostrarMaximo();
 
 
+            //6 - Las siguientes variables están bien inciadas?
+            /*
+             int numero = "string"; - No , el valor asignado es un string y la variable es de tipo int
+             string cadena = 2; - No, el valor asignado es un int y la variable es de tipo string
+             bool boleano = "true"; - No, el valor asignado es un string y la variable es de tipo bool
+             */
 
-            
         }
-           }
+    }
            }
             
 
